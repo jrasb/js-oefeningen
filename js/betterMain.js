@@ -24,11 +24,7 @@ console.log(2022 - v, 2022 - v-1);
 
 answers.textContent = answerX + " " + answerY + " " + answerZ + " ";
 
-
-
-rekenen.textContent += (v - w) + " " + (v + w) + " ";
-rekenen.textContent += (v * w) + " ";
-rekenen.textContent += (v / w) + " ";
+rekenen.textContent += (v - w) + " " + (v + w) + " " +(v * w) + " " + (v / w) + " ";
 
 modulo.textContent += promptNumber%2;
 
