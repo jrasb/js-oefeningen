@@ -1,0 +1,15 @@
+html {
+    background: #222;
+    color: #eee;
+}
+
+#wrapper {
+    margin: auto;
+    width: fit-content;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 6;
+}
